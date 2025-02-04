@@ -7,6 +7,7 @@ export default defineConfig({
 			entry: "app/exports.ts",
 			name: "jwl_shops",
 			// fileName will be `my-react-hooks.es.js` or `my-react-hooks.umd.js` depending on the format.
+			formats: ["es"],
 			fileName: (format) => `jwl_shops.${format}.js`,
 		},
 		rollupOptions: {
@@ -20,5 +21,5 @@ export default defineConfig({
 			},
 		},
 	},
-	plugins: [dts()],
+	plugins: [dts({ rollupTypes: true })],
 });

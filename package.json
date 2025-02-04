@@ -1,6 +1,7 @@
 {
 	"name": "jwl_shops",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"type": "module",
 	"main": "dist/jwl_shops.umd.js",
 	"module": "dist/jwl_shops.es.js",
 	"types": "dist/index.d.ts",
