@@ -1,6 +1,6 @@
 {
 	"name": "jwl_shops",
-	"version": "0.0.2",
+	"version": "2025.02.01",
 	"type": "module",
 	"main": "dist/jwl_shops.umd.js",
 	"module": "dist/jwl_shops.es.js",
@@ -16,6 +16,9 @@
 	"dependencies": {
 		"@react-router/node": "^7.1.5",
 		"@react-router/serve": "^7.1.5",
+		"@remix-run/react": "^2.15.3",
+		"@shopify/hydrogen-react": "^2025.1.0",
+		"@tanstack/react-query": "^5.66.0",
 		"isbot": "^5.1.17",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
